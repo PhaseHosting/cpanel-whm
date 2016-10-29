@@ -1,7 +1,7 @@
 <?php namespace Gufy\CpanelWhm;
 
 use Illuminate\Support\ServiceProvider;
-//test
+
 class CpanelWhmServiceProvider extends ServiceProvider
 {
 
