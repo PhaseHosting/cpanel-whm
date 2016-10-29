@@ -12,8 +12,14 @@
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": "~5",
-        "gufy/cpanel-php": "~1.0"
+        "gufy/cpanel-php": "dev-master"
     },
+    "repositories": [
+       {
+         "type": "vcs",
+         "url": "https://github.com/PhaseHosting/cpanel-whm"
+       }
+    ],
     "autoload": {
         "classmap": [
             "src/migrations"
