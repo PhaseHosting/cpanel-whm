@@ -11,13 +11,17 @@ If you are Laravel 4 user, please use v1.0.1 version instead.
 
 ### Installation Guide
 
-To install this package, you can run this code via your terminal
-```shell
-	composer require gufy/cpanel-whm:~1.0
-```
-Or update your `composer.json` by adding this line
+Update your `composer.json` by adding this line
 ```json
-	"gufy/cpanel-whm":"~1.0"
+	"require": {
+	    "gufy/cpanel-whm":"dev-master"
+	},
+	"repositories": [
+	    {
+	        "type": "vcs",
+	        "url": "https://github.com/PhaseHosting/cpanel-whm"
+	    }
+	],
 ```
 Then, run this code
 ```shell
